@@ -1,15 +1,15 @@
-from tkinter import*
+from tkinter import*                      #importa la funcion
 
-raiz=Tk()
+Ventana = Tk()
 
-raiz.title("Maquina CNC 2D")
+Ventana.title("Maquina CNC 2D")           #Nonmbre de la pagina
 
-raiz.resizable(True, True)
+Ventana.resizable(True, True) #Tamaño minimo y maximo de la ventana
 
-raiz.iconbitmap("Icono.ico")
+Ventana.iconbitmap("Icono.ico")           #Personaliza Icono De Ventana
 
-raiz.geometry("1200x600")
+Ventana.geometry("1200x600")              #Dimenciones Iniciales De La Ventana
 
-raiz.config(bg = "Purple")
+Ventana.config(bg = "Purple")             # Colores De La Ventana
 
-raiz.mainloop()
+Ventana.mainloop()
