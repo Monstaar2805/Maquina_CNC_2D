@@ -10,7 +10,7 @@ mainloop()
 def Siguiente():
     tkinter.Label(Ventana1, text = "Next" ).pack()
 boton = tkinter.Button(Ventana1, text = "siguiente", command = Next, fg ="green")
-boton.pack()
+boton.pack()s
 boton.place(x=200, y=200)
 
 if __name__ == '__main__':
