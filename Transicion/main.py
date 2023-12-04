@@ -35,7 +35,7 @@ class ImageTransitionApp(QMainWindow):
         # Cargar la siguiente imagen en la lista
         self.current_image_index += 1
         if self.current_image_index >= len(self.image_paths):
-            self.current_image_index = 3
+            self.current_image_index = True
 
         image_path = self.image_paths[self.current_image_index]
         pixmap = QPixmap(image_path)
